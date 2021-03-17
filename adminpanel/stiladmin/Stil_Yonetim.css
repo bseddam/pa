@@ -1,0 +1,260 @@
+﻿@charset "utf-8";
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    margin: 0px;
+    padding: 0px;
+    height:1024px;
+    background:#fff;color:#141823;line-height:1.28;margin:0;padding:0;direction:ltr;unicode-bidi:embed
+}
+#dis_alan{
+	width: 1024px;
+    height: auto;
+	margin: auto;
+	padding: 0;
+}
+#banner {
+	font-size: 20px;
+	font-weight: bold;
+	color: #FFF;
+	background-color: #263E84;
+	text-align: center;
+	height: 35px;
+	width: auto;
+	padding-top: 15px;
+}
+
+#navigasyon_alani {
+    height: 30px;
+    width: auto;
+    /*background-image: url('../images/bg_navi.png');*/
+    background-color: #D3DFE3;
+}
+#adsoyad {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 13px;
+	color: #03C;
+	float: left;
+	height: auto;
+	width: auto;
+	font-weight: bold;
+	padding-top: 5px;
+	padding-left: 20px;
+}
+#gorev {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #939;
+	height: auto;
+	width: auto;
+	padding-top: 5px;
+	margin-left: 10px;
+	float: left;
+}
+#icerik_alani{
+	min-height: 800px;
+	width: 1024px;
+}
+#menuler {
+    height: auto;
+    width: 235px;
+    background-color: #339966;
+    float: left;
+}
+
+#menuler ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+   
+}
+#menuler ul li {
+}
+#menuler ul li a {
+    height: 20px;
+    width: 220px;
+    display: block;
+    text-align: center;
+    padding-top: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #FFF;
+    margin-left: 7px;
+    margin-top: 10px;
+    background-color: #084876;
+    margin-bottom: 10px;
+    border-radius:5px;
+}
+#menuler ul li a:hover {
+     color:yellow;
+ text-decoration: underline;
+}
+
+.temizle {
+	clear: both;
+}
+.sayfaarkaplan
+{
+    background-color: Gray;
+    filter: alpha(opacity=70);
+    opacity: 0.7;
+}
+.altbawliqlar {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    padding-left: 60px;
+    padding-top:50px;
+}
+
+.arxasi {
+    height: auto;
+    width: 146px;
+    background-color: #4466CA;
+    float: left;
+}
+.arxasi2 {
+    padding: 5px;
+    width: 194px;
+    background-color: #4466CA;
+    float: left;
+    text-align:center;
+}
+.arxasi3 {
+    padding: 5px;
+    width: 198px;
+    background-color: #4466CA;
+    float: left;
+    text-align:center;
+}
+
+.arxasi1 {
+    height: auto;
+    width: 148px;
+    background-color: #4466CA;
+    float: left;
+}
+.ustm:hover{
+ color:yellow;
+ text-decoration: underline;
+}
+.ustm1:hover{
+ color:yellow;
+ text-decoration: underline;
+}
+.ustm2:hover{
+ color:yellow;
+ text-decoration: underline;
+}
+.ustm3:hover{
+ color:yellow;
+ text-decoration: underline;
+}
+.lbadminekec:hover{
+
+ color:yellow;
+ text-decoration: underline;
+}
+.lbadminekec{
+  color: #FFF;
+
+}
+.cixiss {
+ text-decoration: none;
+}
+.cixiss:hover {
+ color:yellow;
+ text-decoration: underline;
+}
+.ustmx:hover{
+ color:yellow;
+ text-decoration: underline;
+}
+.ustmx{
+    height: 35px;
+    width: 137px;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    color: #FFF;
+    padding-top:15px;
+    margin-left: 7px;
+    margin-top: 10px;
+    background-color: #084876;
+    margin-bottom: 10px;
+    border-radius:5px;
+}
+.ustm{
+    height: 40px;
+    width: 137px;
+    display: block;
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 3px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #FFF;
+    margin-left: 7px;
+    margin-top: 10px;
+    background-color: #084876;
+    margin-bottom: 10px;
+    border-radius:5px;
+}
+.ustm1{
+    height: 60px;
+    width: 137px;
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #FFF;
+    margin-left: 7px;
+    margin-top: 10px;
+    background-color: #084876;
+    margin-bottom: 10px;
+    border-radius:5px;
+}
+.ustm2 {
+    height: 37px;
+    width: 183px;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    color: #FFF;
+    padding: 5px;
+    padding-top:8px;
+    background-color: #084876;
+    border-radius: 5px;
+}
+.ustm3 {
+    
+    height: 30px;
+    width: 183px;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    color: #FFF;
+    padding: 5px;
+    padding-left:5px;
+    padding-right:5px;
+    padding-top:15px;
+    padding-bottom:5px;
+    background-color: #084876;
+    border-radius: 5px;
+
+}
+#icerik
+{
+    height: auto;
+    width: 1024px;
+    float: left;
+    /*background-image: url('../images/bodybg.jpg');*/
+}

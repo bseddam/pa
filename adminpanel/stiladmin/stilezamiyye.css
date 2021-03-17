@@ -1,0 +1,227 @@
+﻿@charset "utf-8";
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    font-weight: 200;
+    /*background-color: #DDDDDD;*/
+}
+.dis_alan {
+	width: 1024px;
+    height: 100%;
+	margin: auto;
+	padding: 0;
+}
+
+.banner {
+	background-color: #1B2C5C;
+	height: 40px;
+	width: 1024px;
+	padding-top: 10px;
+}
+.icerik_alan {
+	height: auto;
+	width: 1024px;
+}
+.bawliq {
+    text-align: center; /*background-color: #263E84;*/
+    height: 60px;
+    color: #000000;
+    width: 1024px;
+    font-size: 23px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+.bawkant {
+	color: #FFF;
+	/*background-color: #4466CA;*/
+	width: 1024px;
+	height:10px;
+}
+
+.agyer {
+	height:25px;
+	width: 1024px;
+}
+.formas03{
+	font-size: 16px;
+	color: #000;
+	width: 100px;
+	float:right;
+	font-family: Verdana, Geneva, sans-serif;
+	margin: 5px;
+}
+.formakant {
+	padding-top:5px;
+	background-color: #517DBF;
+	width: 1024px;
+	height:20px;
+	float:left;
+	text-align:center;
+	color: #FFF;
+}
+.frmdolduran {
+    background-color: #C0C0C0;
+    width: 1024px;
+    float: left;
+}
+
+.frmdolduran1{
+	background-color: #339966;
+	width: 1024px;
+	float:left;
+}
+
+.rublukmel {
+	padding-top:6px;
+	text-align:center;
+	background-color: #339966;
+	height:28px;
+	color: #FFF;
+	width: 1024px;
+	font-size: 22px;
+	font-weight: bold;
+	float:left;
+	margin-top:30px;
+}
+.yarimillikmel {
+	padding-top:6px;
+	text-align:center;
+	background-color: #339966;
+	height:28px;
+	color: #FFF;
+	width: 1024px;
+	font-size: 22px;
+	font-weight: bold;
+	float:left;
+	margin-top:30px;
+}
+.ixtisasterkibi {
+    padding-top: 5px;
+    margin-top: 15px; /*background-color: #507CD1;*/
+    width: 1024px;
+    height: 20px;
+    float: left;
+    color: #000000;
+    text-align: left;
+}
+.table{
+	border-top-style: dotted;
+	border-right-style: dotted;
+	border-bottom-style: dotted;
+	border-left-style: dotted;
+	border-width:1px;
+    width:1024px;
+	
+	}
+.ferqli{
+	border-top-style: dotted;
+	border-right-style: dotted;
+	border-left-style: dotted;
+    width:1024px;
+	border-width:1px;
+	}
+.footer {
+
+    float:left;
+    text-align:center;
+	height:30px;
+	width: 1024px;
+	padding-top:5px;
+}
+.footer1{
+    background-color: #263E84;
+    float:left;
+    text-align:center;
+	height:30px;
+	width: 1024px;
+	padding-top:5px;
+}
+.footerkant1{
+    margin-top:50px;
+	background-color: #4466CA;
+	width: 1024px;
+	height:10px;
+    float:left;
+}
+.footerkant {
+    margin-top:50px;
+	width: 1024px;
+	height:10px;
+    float:left;
+}
+.calendar {
+float:left;
+margin-left:10px;
+}
+.labelcalendar {
+    padding-left: 40px;
+    padding-top: 20px;
+    float: left;
+    color: #000000;
+    height: 6px;
+    width: 90px;
+}
+.temizle {
+	clear: both;
+}
+.diger {
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom:10px;
+    font-weight: bold;
+    font-style: normal;
+}
+.ddl {
+float:left;
+padding-left:10px;
+}
+.btnl {
+padding-left:50px;
+width:80px;
+float:left;
+}
+.btnl1{
+padding-top:50px;
+width:80px;
+
+}
+
+
+.gridview {
+
+    padding-left:10px;
+    padding-bottom:30px;
+    width:980px;
+}
+.gridview1{
+    padding-top:30px;
+    padding-left:10px;
+    padding-bottom:30px;
+    width:697px;
+}
+.txtbox {
+width:665px;
+}
+.elaveet {
+width:190px;
+
+}
+.scrol {
+    width:1024px;
+    height:250px;
+    overflow: scroll;
+    background-color: #C0C0C0;
+
+}
+.scrol10 {
+    width:1024px;
+    height:350px;
+    overflow: scroll;
+    background-color: #C0C0C0;
+
+}
+.message {
+    padding-left:60px;
+    padding-top:30px;
+}

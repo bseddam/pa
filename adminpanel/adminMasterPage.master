@@ -1,0 +1,76 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="adminMasterPage.master.cs" Inherits="adminpanel_adminMasterPage" %>
+
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+   <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <title></title>
+    <link href="../App_Themes/Default/Default.css" rel="stylesheet" />
+    <link href="stiladmin/Stil_Yonetim.css" rel="stylesheet" />
+    <link href="stiladmin/stilezamiyye.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+       <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    </asp:ContentPlaceHolder>
+<%--            <script type = "text/javascript" >
+                window.onload = function () {
+                    noBack();
+                }
+                function noBack() {
+                    window.history.forward();
+                }
+</script>--%>
+</head>
+
+    <%--<body onpageshow="if (event.persisted) noBack();">--%>
+<body><%--style='background: url("images/bodybg.jpg") repeat fixed 0 0 transparent;'--%>
+    <form id="form1" runat="server">
+       
+        <div id="dis_alan">
+	<div id="banner"><div style="text-align:right; width:65%; float:left;">"Ezamiyyə" nəzarət sistemi</div><div style="text-align:right; width:35%;  float:left;">
+        <asp:LinkButton ID="LinkButton1" CssClass="cixiss" runat="server" ForeColor="White"  OnClick="LinkButton1_Click" Visible="False">Çıxış</asp:LinkButton>&nbsp;&nbsp;&nbsp;</div>
+            </div>
+            
+    <div id="navigasyon_alani" style="display:none;">
+    <div id="adsoyad">
+        <asp:Label ID="lbladsoy" runat="server"></asp:Label>
+        &nbsp; -</div>
+    <div id="gorev">
+        <asp:Label ID="lblvezife" runat="server"></asp:Label>
+&nbsp;</div>
+    </div>
+    <div id="icerik_alani">
+        <asp:Panel ID="pnladm"  runat="server">
+<div class="arxasi"><asp:LinkButton class="ustm" PostBackUrl="Yeniezamiyye.aspx" ID="Yeniezamiyye" runat="server">Ezamiyyə <br /> planları</asp:LinkButton></div>
+<div class="arxasi"><asp:LinkButton class="ustmx" PostBackUrl="Hesabatlar.aspx"  ID="Hesabatlar" runat="server">Hesabatlar</asp:LinkButton></div>
+<div class="arxasi"><asp:LinkButton class="ustm" PostBackUrl="Hesabattehlili.aspx" ID="Hesabattehlili" runat="server">Hesabatların təhlili</asp:LinkButton></div>
+<div class="arxasi"><asp:LinkButton class="ustmx" PostBackUrl="Tesnifatlar.aspx" ID="Tesnifatlar" runat="server">Təsnifatlar</asp:LinkButton></div>
+<div class="arxasi"><asp:LinkButton class="ustm" PostBackUrl="Kuratorlar.aspx" ID="Kuratorlar" runat="server">Kuratorlar və kurasiya</asp:LinkButton></div>
+<div class="arxasi"><asp:LinkButton class="ustm" PostBackUrl="Parollar.aspx" ID="Parollar" runat="server">Sistemə giriş<br />şifrələri</asp:LinkButton></div>
+<div class="arxasi1"><asp:LinkButton class="ustmx"  ID="btncixis" runat="server" Text="Çıxış" OnClick="btncixis_Click" >Çıxış</asp:LinkButton></div>
+
+    	</asp:Panel>
+      
+        <div id="icerik">
+            
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+        </div> 
+           <div class="temizle">
+        </div>
+  </div>
+             <div class="temizle">
+        </div>         
+<%--           
+ <div class="footerkant1">&nbsp;</div>
+        <div class="footer1">&nbsp;</div>--%>
+</div>
+
+
+    </form>
+</body>
+</html>

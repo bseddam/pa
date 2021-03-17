@@ -1,0 +1,112 @@
+﻿body {
+    width: 1244px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    background-color: #DDDDDD;
+}
+.divtop
+{
+     width: 1244px;
+     height:150px;
+     color:red;
+     background: border-box;
+     background-color:#0094ff;
+}
+
+.divleft
+{
+     width: 150px;
+     height:auto;
+     color:blue;
+     background-color:#0094ff;
+     background: border-box;
+}
+.divbody
+{
+     width: 1087px;
+     height:257px;
+     color:blue;
+     background-color:#0094ff;
+     }
+
+.tabletop
+{
+    width: 1086px;
+    height: auto;
+}
+.dovruluk
+{
+    width:350px;
+    height:auto;
+}
+.divi{
+    margin-top:10px;
+     width:80px;
+     height:30px;
+     padding-top:5px;
+}
+.divi1{
+     margin-top:10px;
+     padding-top:5px;
+    background-color:#EFF3FB;
+     width:80px;
+     height:30px;
+}
+.hundur {
+height:50px;
+background-color:#EFF3FB;
+border-width:0px;
+ text-align: center;
+}
+.hundur1 {
+height:50px;
+border-width:0px;
+text-align: center;
+}
+.header {
+
+    height:50px;
+background-color:#EFF3FB;
+border-width:0px;
+ text-align: center;
+}
+.datalist {
+    float:left;
+    width:455px;
+   
+}
+.qiraq {
+float:left;
+width:300px;
+    margin-right: 4px;
+    
+}
+.sutun {
+    height: 50px;
+    border-width: 0px;
+    background-color: #0F0FFF;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    width:400px;
+}
+.sutun1 {
+    height: 50px;
+    border-width: 0px;
+    background-color: #0F0FFF;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+}
+.hamisi {
+height:1890px;
+margin-left:30px;
+margin-top:100px;
+}

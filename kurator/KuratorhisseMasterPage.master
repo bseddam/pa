@@ -1,0 +1,83 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="KuratorhisseMasterPage.master.cs" Inherits="adminpanel_Kuratorhisse" %>
+
+
+
+
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+   <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <title></title>
+    <link href="../App_Themes/Default/Default.css" rel="stylesheet" />
+    <link href="stiladmin/Stil_Yonetim.css" rel="stylesheet" />
+    <link href="stiladmin/stilezamiyye.css" rel="stylesheet" />
+    <link href="../adminpanel/stiladmin/stilezamiyye.css" rel="stylesheet" />
+    <link href="../adminpanel/stiladmin/Stil_Yonetim.css" rel="stylesheet" />
+    <link href="../App_Themes/Default/Default.css" rel="stylesheet" />
+  
+    <asp:ContentPlaceHolder id="head" runat="server">
+       <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    </asp:ContentPlaceHolder>
+                <script type = "text/javascript" >
+                    window.onload = function () {
+                        noBack();
+                    }
+                    function noBack() {
+                        window.history.forward();
+                    }
+</script>
+</head>
+
+<body  onpageshow="if (event.persisted) noBack();">
+    <asp:Label ID="lblvezife" Visible="false" runat="server"></asp:Label>
+   <form id="form1" runat="server">
+        <div id="dis_alan">
+	<div id="banner">	
+    
+        <asp:Label ID="lbladsoy" runat="server"></asp:Label>
+            </div>
+     <%--<div id="navigasyon_alani">
+   <div id="adsoyad">
+        &nbsp; </div>--%>
+ <%--   <div id="gorev">
+        &nbsp;
+&nbsp;</div>
+    </div>
+        --%>
+    <div id="icerik_alani">
+   
+<div class="arxasi2"><asp:LinkButton class="ustm3" PostBackUrl="Ezamiyyenintesviri.aspx" ID="Yeniezamiyye" runat="server" >Ezamiyyə planları</asp:LinkButton></div>
+<div class="arxasi2"><asp:LinkButton class="ustm3" PostBackUrl="HesabatKurator.aspx"     ID="Hesabatlar" runat="server">Hesabatlar</asp:LinkButton></div>
+<div class="arxasi2"><asp:LinkButton class="ustm2"  ID="Cari" runat="server" ></asp:LinkButton></div>
+<div class="arxasi2">
+<div class="ustm3">
+    <asp:LinkButton class="lbadminekec"  ID="lbadmin" runat="server"  > Adminə keç  </asp:LinkButton>
+     <%--  <asp:LinkButton class="lbadminekec"  ID="lbadmin" runat="server"  OnClick="lbadmin_Click" > Adminə keç  </asp:LinkButton>
+  --%>
+        </div>
+       </div>
+<div class="arxasi3"><asp:LinkButton class="ustm3"  ID="btncixis" runat="server" Text="Çıxış"  OnClick="btncixis_Click"  ></asp:LinkButton></div>
+ 
+   
+      
+        <div id="icerik">
+            
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+        </div> 
+  </div>
+             
+           
+ <div class="footerkant1">&nbsp;</div>
+        <div class="footer1">&nbsp;</div>
+</div>
+
+
+    </form>
+</body>
+</html>
